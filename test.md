@@ -4,7 +4,7 @@
 
 **Image:**
 
-![img](uploads/syncthing.png)
+![img](syncthing.png)
 
 **Steps to Install:**
 
