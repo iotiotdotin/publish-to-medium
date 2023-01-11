@@ -12,5 +12,10 @@ jobs:
       - uses: InfraWay/post-medium-action@v1.6.0
         with:
           access_token: ${{ secrets.MEDIUM_ACCESS_TOKEN }}
-          markdown_file: ./*.md
+          markdown_file: ./test.md
+          base_url: https://medium.com/@iotiot
+      - uses: InfraWay/post-medium-action@v1.6.0
+        with:
+          access_token: ${{ secrets.MEDIUM_ACCESS_TOKEN }}
+          markdown_file: ./test2.md
           base_url: https://medium.com/@iotiot
