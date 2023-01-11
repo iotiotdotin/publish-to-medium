@@ -4,7 +4,7 @@
 
 **Image:**
 
-![img](syncthing.png)
+![test-img](https://github.com/iotiotdotin/publish-to-medium/raw/main/syncthing.png)
 
 **Steps to Install:**
 
