@@ -1,4 +1,4 @@
-## Title: Content Management System on BrainyPi
+## Content Management System on BrainyPi
 
 **Description:** Joomla is a popular open-source content management system that allows you to publish your web content easily. It is very flexible as it helps to manage different types of web content.
 
