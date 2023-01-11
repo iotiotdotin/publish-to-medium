@@ -8,6 +8,7 @@
 
 **Steps to Install:**
 
+
 1. Just copy and paste the following lines into a terminal:
 
 * Setting up NGINX on the Brainy Pi.
