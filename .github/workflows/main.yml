@@ -20,10 +20,13 @@ jobs:
               ((i=i+1))
             fi
           done
+      - id: checkout
+        name: Checkout the repository
+        uses: actions/checkout@v2
       - if: steps.posts.outputs.post0
         name: Publish as a draft to medium
         uses: InfraWay/post-medium-action@v1.6.0
         with:
           access_token: ${{ secrets.MEDIUM_ACCESS_TOKEN }}
-          markdown_file: ./${{ steps.posts.outputs.post0 }}
+          markdown_file: ${{ steps.posts.outputs.post0 }}
           base_url: https://medium.com/@iotiot
